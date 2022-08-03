@@ -1,0 +1,34 @@
+<br>
+<div class="container">
+<button class="btn-primary" disabled>Delete Record</button>
+<div class="contianer col-md-6">
+<br>
+<table class="table table-striped">  
+    <tbody>
+    <tr class="table-dark">
+        <td class="table-dark">Employee Id</td>
+        <td class="table-secondary">{{employee.id}}</td>
+    </tr>
+    <tr class="table-dark">
+        <td class="table-dark">Employee Name</td>
+        <td class="table-secondary">{{employee.name}}</td>
+    </tr>
+    <tr class="table-dark">
+        <td class="table-dark">Gender</td>
+        <td class="table-secondary">{{employee.gender}}</td>
+    </tr>
+    <tr class="table-dark">
+        <td class="table-dark">Age</td>
+        <td class="table-secondary">{{employee.age}}</td>
+    </tr>
+    <tr class="table-dark">
+        <td class="table-dark">Salary</td>
+        <td class="table-secondary">{{employee.salary}}</td>
+    </tr>
+</tbody>
+</table>
+<button type="button" (click)="onDelete()" class="btn btn-primary btn-md">Delete</button>
+&nbsp;&nbsp;
+<button type="button" (click)="onCancel()" class="btn btn-danger btn-md">Cancel</button>
+</div>
+</div>

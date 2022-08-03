@@ -1,0 +1,46 @@
+<div class="container">
+<br>
+<button class="btn-primary" disabled>Add new Record</button>
+<form (ngSubmit)="onSubmit()">
+  <div class="mb-3 mt-3 col-md-4">
+    <label for="id" class="form-label">Enter Id:</label>
+    <input type="number" class="form-control" id="id" placeholder="Enter Id" name="id" [(ngModel)]="employee.id">
+  </div>
+  <div class="mb-3 col-md-4">
+    <label for="name" class="form-label">Enter Name:</label>
+    <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name" [(ngModel)]="employee.name">
+  </div>
+  <div class="mb-3 col-md-4">
+    <label for="gender" class="form-label">Enter Gender:</label>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" value="Male" id="male" name="gender" [(ngModel)]="employee.gender">
+        <label class="form-check-label" for="male">
+          Male
+        </label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" value="Female" id="female" name="gender" [(ngModel)]="employee.gender">
+        <label class="form-check-label" for="female">
+          Female
+        </label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" value="Other" id="other" name="gender" [(ngModel)]="employee.gender">
+        <label class="form-check-label" for="other">
+          Other
+        </label>
+    </div>
+  </div>
+  <div class="mb-3 col-md-4">
+    <label for="age" class="form-label">Enter Age:</label>
+    <input type="number" class="form-control" id="age" placeholder="Enter Age" name="age" [(ngModel)]="employee.age">
+  </div>
+  <div class="mb-3 col-md-4">
+    <label for="salary" class="form-label">Enter Salary:</label>
+    <input type="number" class="form-control" id="salary" placeholder="Enter Salary" name="salary" [(ngModel)]="employee.salary">
+  </div>
+  <button type="submit" class="btn btn-primary btn-md">Submit</button>  
+  &nbsp;&nbsp;
+  <button type="button" (click)="onCancel()" class="btn btn-danger btn-md">Cancel</button>
+</form>
+</div>
