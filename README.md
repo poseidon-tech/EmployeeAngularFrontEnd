@@ -1,27 +1,36 @@
 # EmployeeFrontEnd
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.5.
+A CRUD application for <b>Employee management system</b> using a Angular on frontend and Java SpringBoot on backend secured using spring security.
 
-## Development server
+## Login Page
+<hr>
+![](https://github.com/poseidon-tech/img/blob/main/EmployeeFrontEnd%20-%20Google%20Chrome%2004-08-2022%2010_18_06.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Employee Details Page
+<hr>
+![](https://github.com/poseidon-tech/img/blob/main/EmployeeFrontEnd%20-%20Google%20Chrome%2004-08-2022%2011_25_34.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Add page
+<hr>
+![](https://github.com/poseidon-tech/img/blob/main/EmployeeFrontEnd%20-%20Google%20Chrome%2004-08-2022%2011_25_34.png)
 
-## Build
+## Update page
+<hr>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+![](https://github.com/poseidon-tech/img/blob/main/EmployeeFrontEnd%20-%20Google%20Chrome%2004-08-2022%2010_48_37.png)
 
-## Running unit tests
+## Delete page
+<hr>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![](https://github.com/poseidon-tech/img/blob/main/EmployeeFrontEnd%20-%20Google%20Chrome%2004-08-2022%2010_48_57.png)
+## Failed Login
+<hr>
 
-## Running end-to-end tests
+![](https://github.com/poseidon-tech/img/blob/main/EmployeeFrontEnd%20-%20Google%20Chrome%2004-08-2022%2010_50_16.png)
+## To use this Application
+Clone this repo and the backend repo(set-up instructions for that repo are at _)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Navigate to repo folder and run npm install / yarn install for all related dependencies
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+run start script : ng serve / ng serve --open by default runs on port 4200
