@@ -1,8 +1,21 @@
 # EmployeeFrontEnd
 
-A CRUD application for <b>Employee management system</b> using a Angular on frontend and Java SpringBoot on backend secured using spring security.
+A CRUD application for <b>Employee management system</b> using Angular Framework on frontend and Java SpringBoot on backend, Authentication and Authorization using spring security.
 
 
+## Login page
+<hr>
+
+![](https://github.com/poseidon-tech/img/blob/main/EmployeeFrontEnd%20-%20Google%20Chrome%2004-08-2022%2010_18_06.png)
+
+## Employee Details page
+<hr>
+
+![](https://github.com/poseidon-tech/img/blob/main/EmployeeFrontEnd%20-%20Google%20Chrome%2004-08-2022%2011_25_34.png)
+## Insert page
+<hr>
+
+![](https://github.com/poseidon-tech/img/blob/main/EmployeeFrontEnd%20-%20Google%20Chrome%2004-08-2022%2011_49_14.png)
 
 ## Update page
 <hr>
