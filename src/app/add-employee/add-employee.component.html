@@ -1,19 +1,19 @@
 <div class="container">
 <br>
 <button class="btn-primary" disabled>Add new Record</button>
-<form (ngSubmit)="onSubmit()">
+<form ngNativeValidate (ngSubmit)="onSubmit()">
   <div class="mb-3 mt-3 col-md-4">
     <label for="id" class="form-label">Enter Id:</label>
-    <input type="number" class="form-control" id="id" placeholder="Enter Id" name="id" [(ngModel)]="employee.id">
+    <input type="number" class="form-control" id="id" placeholder="Enter Id" name="id" [(ngModel)]="employee.id" required>
   </div>
   <div class="mb-3 col-md-4">
     <label for="name" class="form-label">Enter Name:</label>
-    <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name" [(ngModel)]="employee.name">
+    <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name" [(ngModel)]="employee.name" required>
   </div>
   <div class="mb-3 col-md-4">
     <label for="gender" class="form-label">Enter Gender:</label>
     <div class="form-check">
-        <input class="form-check-input" type="radio" value="Male" id="male" name="gender" [(ngModel)]="employee.gender">
+        <input class="form-check-input" type="radio" value="Male" id="male" name="gender" [(ngModel)]="employee.gender" required>
         <label class="form-check-label" for="male">
           Male
         </label>
@@ -33,11 +33,11 @@
   </div>
   <div class="mb-3 col-md-4">
     <label for="age" class="form-label">Enter Age:</label>
-    <input type="number" class="form-control" id="age" placeholder="Enter Age" name="age" [(ngModel)]="employee.age">
+    <input type="number" class="form-control" id="age" placeholder="Enter Age" name="age" [(ngModel)]="employee.age" required>
   </div>
   <div class="mb-3 col-md-4">
     <label for="salary" class="form-label">Enter Salary:</label>
-    <input type="number" class="form-control" id="salary" placeholder="Enter Salary" name="salary" [(ngModel)]="employee.salary">
+    <input type="number" class="form-control" id="salary" placeholder="Enter Salary" name="salary" [(ngModel)]="employee.salary" required> 
   </div>
   <button type="submit" class="btn btn-primary btn-md">Submit</button>  
   &nbsp;&nbsp;
