@@ -2,7 +2,7 @@
 <div class="container">
 <button class="btn-primary" disabled>Update Record</button>
 <div class="col-md-4">
-<form (ngSubmit)="onSubmit()">
+<form ngNativeValidate (ngSubmit)="onSubmit()">
     <div class="mb-3 mt-3 ">
       <label for="id" class="form-label">Enter Id:</label>
       <input type="number" class="form-control" id="id" placeholder="Enter Id" name="id" [(ngModel)]="employee.id" readonly>
@@ -14,7 +14,7 @@
     <div class="mb-3">
       <label for="gender" class="form-label">Enter Gender:</label>
       <div class="form-check">
-          <input class="form-check-input" type="radio" value="Male" id="male" name="gender" [(ngModel)]="employee.gender">
+          <input class="form-check-input" type="radio" value="Male" id="male" name="gender" [(ngModel)]="employee.gender" required>
           <label class="form-check-label" for="male">
             Male
           </label>
