@@ -2,18 +2,7 @@
 
 A CRUD application for <b>Employee management system</b> using a Angular on frontend and Java SpringBoot on backend secured using spring security.
 
-## Login Page
-<hr>
-![](https://github.com/poseidon-tech/img/blob/main/EmployeeFrontEnd%20-%20Google%20Chrome%2004-08-2022%2010_18_06.png)
 
-
-## Employee Details Page
-<hr>
-![](https://github.com/poseidon-tech/img/blob/main/EmployeeFrontEnd%20-%20Google%20Chrome%2004-08-2022%2011_25_34.png)
-
-## Add page
-<hr>
-![](https://github.com/poseidon-tech/img/blob/main/EmployeeFrontEnd%20-%20Google%20Chrome%2004-08-2022%2011_25_34.png)
 
 ## Update page
 <hr>
@@ -29,7 +18,7 @@ A CRUD application for <b>Employee management system</b> using a Angular on fron
 
 ![](https://github.com/poseidon-tech/img/blob/main/EmployeeFrontEnd%20-%20Google%20Chrome%2004-08-2022%2010_50_16.png)
 ## To use this Application
-Clone this repo and the backend repo(set-up instructions for that repo are at _)
+Clone this repo and the backend repo(set-up instructions for that repo are at _ )
 
 Navigate to repo folder and run npm install / yarn install for all related dependencies
 
